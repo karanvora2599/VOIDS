@@ -91,7 +91,7 @@ def update_global_speakers(new_speaker_embeddings, known_speakers, threshold=0.2
 
     return current_chunk_speakers
 
-def speakercounter(audio_file, auth_token="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"):
+def speakercounter(audio_file, auth_token=""):
     """
     Process an individual audio stream to detect speakers, compare with known speakers,
     and return the count of speakers in the audio snippet and the total number of unique speakers globally.
